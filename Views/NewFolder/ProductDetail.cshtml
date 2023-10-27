@@ -1,0 +1,9 @@
+﻿@model SklepAPI.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>@Model.Name</h1>
+<p>@Model.Description</p>
+<p>Price: @String.Format("{0:C}", Model.Price)</p>
